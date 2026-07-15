@@ -2,6 +2,16 @@
 
 AIエージェントがサンドボックスとして利用できるDockerイメージを作成するためのリポジトリです。
 
+## 含まれるツール
+
+このDockerイメージには、AIエージェントによる開発作業ですぐに使えるランタイムやCLIを同梱しています。
+
+- Pythonのパッケージ・プロジェクト管理ツール `uv` / `uvx`
+- LTS版Node.jsと、最新版のパッケージマネージャー `pnpm`
+- コマンドランナー `just`
+- 開発に便利なCLI（`git`、`curl`、`jq`、`ripgrep`、`file`、`unzip` など）
+- Python 3、ビルドツール、OpenSSHクライアント
+
 ## Docker Hub情報
 
 - Docker Hubユーザー名: `INJAGA`
